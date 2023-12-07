@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login - English Area of Latee</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="logo">
+          <img src="logo.png" alt="" />
+        </div>
+        <div class="teks">
+          <h2>Login Now</h2>
+          <p>Feel easier to study English with us</p>
+        </div>
+        <div class="username">
+          <label for="username">Username*</label>
+          <div class="input-username">
+            <input
+              type="text"
+              name="username"
+              placeholder="Enter your username here"
+              required
+            />
+          </div>
+        </div>
+        <div class="password">
+          <label for="password">Password*</label>
+          <div class="input-password">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password here"
+              required
+            />
+            <div class="eye-icon" onclick="clickPassword()">
+              <img src="eye-open.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="check">
+          <input type="checkbox" name="checkbox" />
+          <label for="checkbox">Remember me</label>
+        </div>
+        <div class="opsi">
+          <a href="../signup/index.html">Don't have an account?</a>
+          <a href="#">Forgot your password?</a>
+        </div>
+        <div class="button-container">
+          <button class="submit">
+            <a href="#">Login</a>
+          </button>
+        </div>
+        <div class="others">
+          <div class="media" id="google">
+            <img src="../../icon/google.svg" alt="" />
+          </div>
+          <div class="media" id="instagram">
+            <img src="../../icon/instagram.svg" alt="" />
+          </div>
+          <div class="media" id="facebook">
+            <img src="../../icon/facebook.svg" alt="" />
+          </div>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <p>Powered by walid.lonjher</p>
+      <p>
+        Email:
+        <a href="mailto:walid.lonjer@gmail.com">walid.lonjer@gmail.com</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

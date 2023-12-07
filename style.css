@@ -1,0 +1,265 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+    color: #333;
+}
+
+header h1{
+    color: #4CAF50;
+}
+
+header {
+    margin-top: 120px;
+}
+
+.header-container {
+    background-color: #e0f4ff;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    padding: 40px;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
+    /* font-family: 'Poppins'; */
+}
+
+.header-container .welcome h2 {
+    color: #39a7ff;
+    /* background-color: blue; */
+    margin-top: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.welcome p {
+    text-align: justify;
+}
+
+.header-container .image {
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: red; */
+    height: 100%;
+}
+
+header div h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    width: 50%;
+}
+
+nav {
+    /* background-color: #333; */
+    color: #fff;
+    text-align: center;
+    /* padding: 10px; */
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+    background-image: linear-gradient(to right,#5b247a ,#0fbbca, #17ead9);
+    padding: 5px 0px 5px 0px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    cursor: pointer;
+}
+
+.logo h4 {
+    font-size: 19px;
+    padding-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 15vw;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    /* width: 10px; */
+    /* background-color: red; */
+}
+
+nav a:hover {
+    color: #39A7FF;
+    /* font-size: 17px; */
+    transition: color 0.4s ease-in-out;
+}
+
+.welcome .logsign{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.welcome .login {
+    background-color: #5b247a;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 1, 0.1);
+}
+
+.welcome .login a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.login:hover {
+    background-color: #1bcedf;
+    transition: .5s;
+    transform: translateX   (-5px);
+}
+
+section {
+    padding: 20px;
+}
+
+#main-content article{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.course-card h3 {
+    color: #5b247a;
+}
+
+.course-card img {
+    width: 80px;
+}
+
+.course-card p {
+    color: #666;
+}
+
+.course-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5b247a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.course-card a:hover {
+    background-color: #1bcedf;
+}
+
+.about-container{
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+}
+
+.story {
+    border: 1px solid #ddd;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.story .story-card {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.story .story-card img {
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: tran 0.3s ease-in-out;
+}
+
+.story .story-card img:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.about-container .story .garis {
+    width: 85%;
+    display: none;    
+}
+
+.garis hr{
+    border: 1px solid rgb(110, 108, 108);
+
+}
+
+.story p {
+    display: none;
+}
+
+footer {
+    background-color: rgb(47, 88, 136);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+footer p {
+    padding: 0px 20px 0px 20px;
+}

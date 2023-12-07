@@ -1,0 +1,5 @@
+color pallate
+#E0F4FF
+#87C4FF
+#39A7FF
+#FFEED9

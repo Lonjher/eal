@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#s {
+    color: #39A7FF;
+}
+
+nav {
+    color: #fff;
+    text-align: center;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+    background-image: linear-gradient(to right,#5b247a ,#1bcedf, #17ead9);
+    padding: 5px 0px 5px 0px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 15vw;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    /* width: 10px; */
+    /* background-color: red; */
+}
+
+nav a:hover {
+    color: #39A7FF;
+    /* font-size: 17px; */
+    transform: translateY(-5px);
+    transition: color 0.4s ease-in-out;
+}
+
+/* ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+ul li a:hover {
+    color: #333;
+} */
+
+.card {
+    /* background-color: red; */
+    margin: 20px;
+    padding: 20px;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .5);
+}
+
+.card h2 {
+    color: #5b247a;
+    font-size: 20px;
+}
+
+.train-speaking {
+    margin: #efefef;
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+}
+
+.tombol {
+    width: 70%;
+    /* background-color: red; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tombol a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #1bcedf;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;    
+}
+
+.tombol a {
+    width: 15%;
+    height: 40px;
+    background-color: #5b247a;
+    border-radius: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
