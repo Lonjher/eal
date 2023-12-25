@@ -116,12 +116,6 @@ nav a {
     /* background-color: red; */
 }
 
-nav a:hover {
-    color: #39A7FF;
-    /* font-size: 17px; */
-    transition: color 0.4s ease-in-out;
-}
-
 .welcome .logsign{
     display: flex;
     width: 50%;
